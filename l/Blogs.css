@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+.thirdpage{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(img/WALLPAPER1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.thirdlogo{
+  width: 85%;
+ margin: auto;
+ padding: 35px 0;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.thirdarylogo{
+  width: 500px;
+  cursor: pointer;
+  filter: brightness(0) invert(1);
+}
+
+.thirdlogo ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.thirdlogo ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.thirdlogo ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: rgb(255, 0, 0);
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s;
+}
+
+.thirdlogo ul li:hover:after{
+  width:100%;
+}
+
+p{
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    padding: -35px 0;
+    margin-top: 0%;
+    
+}
+
+
+body{
+  color: white;
+  font-size: 16px;
+  height: auto;
+  min-height: 100%;
+  background-attachment: fixed;
+}
+
+.JSAText H1{
+  font-size: 50px;
+  margin-top: -30px;
+  text-align: center;
+  font-family: Impact, sans-serif;
+  letter-spacing: 5px;
+}
+
+.CFLText H1{
+  font-size: 50px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: Impact, sans-serif;
+  letter-spacing: 5px;
+}
+
+.DOMText H1{
+  font-size: 50px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: Impact, sans-serif;
+  letter-spacing: 5px;
+}
+
+.ArrayText H1{
+  font-size: 50px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: Impact, sans-serif;
+  letter-spacing: 5px;
+}
+
+.FunctionText H1{
+  font-size: 50px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: Impact, sans-serif;
+  letter-spacing: 5px;
+}
